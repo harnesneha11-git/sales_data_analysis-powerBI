@@ -32,4 +32,5 @@ An interactive sales analysis project built using **Power BI, SQL, Excel, and CS
 - **Sales Overview**
 - **Customer Details**
 
-**Sneha Harne**
+
+ harnesneha11-git
