@@ -255,7 +255,7 @@ Sales-Data-Analysis/
 - Open the CSV files to view the datasets.
 - Use the SQL files for database analysis.
 - Open `SalesBudget.xlsx` to view the budget data.
-- 5.View `Sales Overview.png` and `Customer Details.png` for the dashboard results.
+- 5. View `Sales Overview.png` and `Customer Details.png` for the dashboard results.
 
 ## 💡 Key Insights
 
