@@ -255,7 +255,7 @@ Sales-Data-Analysis/
 - Open the CSV files to view the datasets.
 - Use the SQL files for database analysis.
 - Open `SalesBudget.xlsx` to view the budget data.
-- 5. View `Sales Overview.png` and `Customer Details.png` for the dashboard results.
+- View `Sales Overview.png` and `Customer Details.png` for the dashboard results.
 
 ## 💡 Key Insights
 
@@ -278,6 +278,13 @@ The dashboard provides insights into:
 - Add additional customer segmentation
 - Add more interactive dashboard features
 - Improve dashboard design and navigation
+- 
+
+<img width="1916" height="1018" alt="Sales Overview" src="https://github.com/user-attachments/assets/9b5ae52d-5007-4b33-9e5d-d562c23c7d53" />
+
+
+<img width="1917" height="1016" alt="Customer Details" src="https://github.com/user-attachments/assets/a1005e38-8e92-4d3e-94e7-cc9a315cd7b1" />
+
 
 ## 👩‍💻 Author
 
