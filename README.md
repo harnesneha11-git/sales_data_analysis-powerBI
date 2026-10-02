@@ -1,13 +1,21 @@
-### Sales Data Analysis & Power BI Dashboard
+# 📊 Sales Data Analysis & Power BI Dashboard
 
-An interactive Sales Data Analysis project built using **Power BI, SQL, Excel, and CSV datasets**.  
-The project analyzes sales, customer, product, and budget data to create an interactive dashboard for exploring business performance.
+An interactive **Sales Data Analysis** project built using **Power BI, SQL, Excel, and CSV datasets**.
 
-## Project Overview
+The project analyzes sales, customer, product, and budget data to understand business performance and present the results through an interactive Power BI dashboard.
 
-This project focuses on analyzing sales performance across different customers, products, categories, cities, and months.
+## 📌 Project Overview
 
-The data was organized using multiple tables and relationships, followed by data analysis and visualization in Power BI.
+This project focuses on analyzing sales performance across different:
+
+- Customers
+- Products
+- Categories
+- Cities
+- Months
+- Years
+
+The data was organized into multiple tables and relationships, followed by data cleaning, analysis, and visualization in Power BI.
 
 The dashboard provides an overview of:
 
@@ -21,11 +29,11 @@ The dashboard provides an overview of:
 - Customer-level details
 - Year and month-based filtering
 
-## Dashboard
+## 📊 Dashboard
 
 ### Sales Overview
 
-The Sales Overview dashboard provides a high-level view of sales performance.
+The **Sales Overview** dashboard provides a high-level view of sales performance.
 
 Key elements include:
 
@@ -38,9 +46,9 @@ Key elements include:
 - Sales by Customer City
 - Filters for Year, Month, Customer City, Category, Sub Category, and Product Name
 
-### Customer Details
+### 👥 Customer Details
 
-The Customer Details page provides customer-level analysis including:
+The **Customer Details** page provides customer-level analysis including:
 
 - Customer names
 - Monthly sales
@@ -49,34 +57,39 @@ The Customer Details page provides customer-level analysis including:
 - Customer filtering
 - Year and month filtering
 
-## Tools & Technologies
+## 🛠️ Tools & Technologies
 
-- **Power BI** – Data modeling, dashboard creation and visualization
+- **Power BI** – Data modeling, visualization, and dashboard creation
 - **SQL** – Data querying and analysis
 - **Microsoft Excel** – Budget data
 - **CSV** – Dataset storage
 - **Power Query** – Data cleaning and transformation
 - **DAX** – Measures and calculations
 
-## Data Sources
+## 🗂️ Data Sources
 
 The project contains the following datasets:
 
-### Calendar
+### 📅 Calendar
 
 - `Calendar.csv`
 - `Calendar.sql`
 
 Contains date-related information used for time-based analysis.
 
-### Customers
+### 👤 Customers
 
 - `Customers.csv`
 - `Customers.sql`
 
-Contains customer information such as customer name, city, gender, and customer key.
+Contains customer information such as:
 
-### Products
+- Customer Name
+- Customer City
+- Gender
+- Customer Key
+
+### 🛍️ Products
 
 - `Products.csv`
 - `Products.sql`
@@ -93,7 +106,7 @@ Contains product information including:
 - Product Status
 - Product Item Code
 
-### Internet Sales
+### 💰 Internet Sales
 
 - `InternetSales.csv`
 - `InternetSales.sql`
@@ -108,17 +121,33 @@ Contains sales transaction data including:
 - Sales Amount
 - Sales Order Number
 
-### Sales Budget
+### 📈 Sales Budget
 
 - `SalesBudget.xlsx`
 
 Contains budget information used to compare actual sales with planned budget amounts.
 
-## Data Model
+## 🗄️ Data Model
 
-The Power BI data model follows a relational/star-schema style structure.
+The project uses a relational/star-schema style data model.
 
-Main tables include:
+The main fact table is:
+
+- `FACT_InternetSales`
+
+Dimension tables include:
+
+- `Products`
+- `Customers`
+- `Calendar`
+
+Budget information is stored in:
+
+- `FACT_Budget`
+
+The relationships between these tables allow sales data to be analyzed by **customer, product, category, location, and date**.
+
+### Data Model Structure
 
 ```text
                  Calendar
@@ -127,7 +156,7 @@ Main tables include:
 Products ---- FACT_InternetSales ---- Customers
                     |
                     |
-              Sales Budget
+               FACT_Budget
 ```
 ## 🗄️ Data Model
 
@@ -214,9 +243,44 @@ Sales-Data-Analysis/
 ├── Products.sql
 │
 ├── SalesBudget.xlsx
-├── Sales Portfolio.pbix
 │
 ├── Sales Overview.png
 ├── Customer Details.png
 │
 └── README.md
+```
+## 🚀 How to Use
+
+- 1. Download or clone this repository.
+- 2. Open the CSV files to view the datasets.
+- 3. Use the SQL files for database analysis.
+- 4. Open `SalesBudget.xlsx` to view the budget data.
+- 5. View `Sales Overview.png` and `Customer Details.png` for the dashboard results.
+
+## 💡 Key Insights
+
+The dashboard provides insights into:
+
+- 📊 Overall sales performance
+- 💰 Sales compared with budget
+- 👥 Highest-selling customers
+- 🛍️ Highest-selling products
+- 📦 Category-wise sales contribution
+- 📅 Monthly sales trends
+- 🌎 Geographic distribution of sales
+- 👤 Customer-level sales performance
+
+## 🔮 Future Improvements
+
+- Add profit and profit margin analysis
+- Add year-over-year sales comparison
+- Add sales growth analysis
+- Add additional customer segmentation
+- Add more interactive dashboard features
+- Improve dashboard design and navigation
+
+## 👩‍💻 Author
+
+**Sneha Harne**
+
+harnesneha11-git
