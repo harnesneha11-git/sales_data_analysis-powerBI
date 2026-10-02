@@ -278,7 +278,7 @@ The dashboard provides insights into:
 - Add additional customer segmentation
 - Add more interactive dashboard features
 - Improve dashboard design and navigation
-- 
+  
 
 <img width="1916" height="1018" alt="Sales Overview" src="https://github.com/user-attachments/assets/9b5ae52d-5007-4b33-9e5d-d562c23c7d53" />
 
