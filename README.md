@@ -251,11 +251,11 @@ Sales-Data-Analysis/
 ```
 ## 🚀 How to Use
 
-- 1. Download or clone this repository.
-- 2. Open the CSV files to view the datasets.
-- 3. Use the SQL files for database analysis.
-- 4. Open `SalesBudget.xlsx` to view the budget data.
-- 5. View `Sales Overview.png` and `Customer Details.png` for the dashboard results.
+- Download or clone this repository.
+- Open the CSV files to view the datasets.
+- Use the SQL files for database analysis.
+- Open `SalesBudget.xlsx` to view the budget data.
+- 5.View `Sales Overview.png` and `Customer Details.png` for the dashboard results.
 
 ## 💡 Key Insights
 
